@@ -1,0 +1,283 @@
+body{
+  color:#444;
+  background-image:url(http://img.hb.aicdn.com/19a4e6fb64f52cd4bacd14d2df87da5f0d8d82c926462-N2pSNS_fw658);
+}
+ul{
+  list-style-type:none;
+  padding:0;
+  margin:0;
+}
+
+a,a:hover{
+	text-decoration:none;
+}
+h1,h3,h4{
+	margin:0;
+	padding:0;
+}
+.container-fluid{
+  width:1200px;
+  overflow:hidden;
+}
+
+
+/*标题部分-----------------------------------------------------*/
+#title{
+
+}
+
+#title span{
+	position:absolute;
+	color:#fff;
+}
+.title-left{
+	left:-100px;
+	top:38px;
+}
+.title-right{
+	left:520px;
+	top:38px;
+}
+h1{
+  font-weight:bold;
+  font-family:arial, helvetica, sans-serif;
+  font-size:60px;
+  margin-top:80px;
+  letter-spacing:12px;
+}
+#title a{
+	position:relative;
+	color:#fff;
+	padding-bottom:4px;
+	border-bottom:#fff 1px dashed;
+}
+#title a:hover{
+	color:#fff;
+}
+h3{
+	margin-top:12px;
+  font-size:18px;
+  color:#fff;
+  letter-spacing:1.5em;
+}
+
+
+/*简介部分--------------------------------------------------- */
+#intro{
+	overflow:hidden;
+	margin-top:80px;
+  background-color:#fff;
+}
+.col-md-7{
+	background-color:#fff;
+	height:350px;
+	padding:36px;
+}
+.col-md-5{
+	margin-left:-10px;
+}
+.intro-img{
+  width:500px;
+  height:350px;
+}
+.intro-text{
+  font-size:14px;
+  font-family:"微软雅黑";
+  line-height:20px;
+  text-indent:2em;
+}
+#intro a{
+	color:#222;
+}
+#intro a:hover{
+	color:#eee;
+	background-color:#38424e;
+}
+
+
+/* 导航--------------------------- */
+#nav{
+	
+}
+.nav-list{
+	overflow:hidden;
+	border-top:4px #444 solid;
+	width:340px;
+	margin:0 auto;
+}
+.nav-list li{
+	float:left;
+	height:30px;
+}
+#nav a{
+	display:inline-block;
+	color:#fff;
+	background:#444;
+	padding:0px 20px;
+	margin-right:6px;
+	line-height:30px;
+}
+#nav a:hover{
+	padding-left:18px;
+	border-left:2px #fff solid;
+  color:#fff;
+}
+
+/* 生涯部分 ----------------------------------------------*/
+#life,#num,#last{
+	overflow: hidden;
+  padding:30px 200px;
+	clear:both;
+}
+#life{
+	margin-top:20px;
+}
+.life-img,.num-img,.last-img{
+  width:58px;
+  height:58px;
+  border-color:#888;
+  border-width:4px;
+  border-style:solid;
+  border-radius:50%;
+}
+
+.life-title,.num-title,.last-title{
+	color:#7f8995;
+  padding-top:10px;
+  padding-bottom:4px;
+  margin-left:10px;
+  font-size:26px;
+  font-weight:bold;
+}
+.life-more,.num-more,.last-more{
+	float:right;
+	font-size:14px;
+	color:#7f8995;
+	margin-top:10px;
+}
+.life-more:hover,.num-more:hover,.last-more:hover{
+	color:#eee;
+}
+
+#life .col-md-11,#num .col-md-11,#last .col-md-11{
+  margin-left:-10px;
+}
+
+.list-item{
+	border-radius:4px;
+	margin-top:10px;
+	overflow: hidden;
+	padding:20px 10px;
+	background-color:#fff;
+}
+.list-item-left{
+	width:250px;
+	height:400px;
+}
+.list-item-right{
+	margin-left:10px;
+	width:510px;
+	height:195px;
+}
+.list-top{
+	overflow: hidden;
+}
+.life-list-title{
+	font-size:16px;
+	margin-bottom:10px;
+}
+.life-list-img,.life-list-text,.list-item-left,.list-item-right{
+	float:left;
+}
+.life-list-img{
+	width:230px;
+}
+.list-item-right .life-list-img{
+	width:180px;
+}
+.list-item-left .life-list-text{
+	padding-top:10px;
+}
+.list-item-right .life-list-text{
+	width:300px;
+	padding-left:10px;
+}
+.life-list-text{
+	font-size:12px;
+	line-height:24px;
+	letter-spacing:3px;
+}
+/* 战绩-------------------------------------------------- */
+
+.num-list{
+	overflow: hidden;
+	margin-top:10px;
+	background-color:#fff;
+	padding:20px;
+	border-radius:4px;
+}
+.num-list-img,.num-list-list{
+	float:right;
+	width:320px;
+}
+.num-list-img{
+	border-radius:6px;
+}
+.num-list-list{
+	padding:10px 20px;
+	padding-top:100px;
+	font-size:12px;
+  line-height:22px;
+  letter-spacing:2px;
+}
+.num-list li{
+  list-style:none;
+  margin-bottom:10px;
+}
+
+/* 退役--------------------------------------------- */
+.last-text{
+  margin-top:10px;
+  padding:20px 80px;
+  background-color:#fff;
+  border-radius:4px;
+}
+.last-text-item{
+  text-indent:2em;
+  font-size:14px;
+  line-height:24px;
+}
+.last-list{
+	margin-top:50px;
+	overflow: hidden;
+}
+.last-list li{
+	float:left;
+	margin-right:40px;
+}
+.last-list li p{
+	margin-top:10px;
+}
+
+/* 脚部--------------------------------- */
+#footer{
+  background:#000 url(../img/footer.jpg) no-repeat;
+  margin-top:20px;
+  color:#818181;
+  padding:20px;
+}
+
+#footer .row{
+  padding-top:80px;
+  padding-bottom:50px;
+}
+#footer .text-right{
+  padding-left:80px; 
+}
+#footer .text-left{
+  padding-right:80px;
+  padding-left:10px;
+  border-left:4px solid #818181;
+}
+
+
