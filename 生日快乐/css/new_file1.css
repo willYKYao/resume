@@ -1,0 +1,175 @@
+
+body,ul,h3,p{
+	padding:0;
+	margin:0;
+}
+body{
+	font-size:14px;
+	font-family:"微软雅黑";
+	color:#555;
+	
+}
+img{
+	border:none;
+}
+li{
+	list-style-type: none;
+}
+a{
+	text-decoration:none;
+}
+#container{
+	width:1000px;
+	margin:0 auto;
+	background:#FFF0F5;
+	border:1px solid #eee;
+	border-radius:10px;
+	
+}
+#header{
+	border:1px solid #eee;
+	border-radius:10px;
+	background:#f1f1f1;
+	overflow:hidden;
+}
+.search ul{
+	margin-left:100px;
+}
+.search ul li{
+	float:left;
+	font-size:40px;
+	color:pink;
+	font-weight:bold;
+}
+.search ul li a{ 
+	color:pink;
+	padding:20px 20px;
+	display:block;
+	
+}
+.search ul li a:hover{
+	background:pink;
+	color:#fff;
+}
+#img{
+	margin-top:20px;
+	background:#f1f1f1;
+}
+#img img{
+	border:10px solid #f1f1f1;
+}
+#main{
+	margin-top:20px;
+	overflow:hidden;
+}
+#left{
+	float:left;
+	width:400px;
+}
+
+.title{
+	border:1px solid #eee;
+	border-radius:10px;
+	background:#f1f1f1 url(../img/未标题-1.png) no-repeat 2px 8px;
+	overflow:hidden;
+}
+.title h3{
+	float:left;
+	padding:10px 35px;
+}
+.title span{
+	float:right;
+	margin-right:10px;
+	line-height:40px;
+}
+.title span a{
+	color:#555;
+}
+.title span a:hover{
+	color:pink;
+}
+#left .left{
+	margin-top:5px;
+	background:#f1f1f1;
+	padding:10px;
+}
+#left .left img{
+	height:200px;
+	width:200px;
+}
+#left .left p{
+	line-height:25px;
+}
+#right{
+	float:right;
+	width:590px;
+}
+#right .right{
+	padding:10px;
+	background:#f1f1f1;
+	margin-top:5px;
+	overflow:hidden;
+	position:relative;
+}
+#rightTop .right img{
+	height:200px;
+	width:200px;
+	float:left;
+	background:url(../img/loader_ico.gif) no-repeat center;
+}
+#right .right a{
+	height:30px;
+	width:30px;
+	text-align:center;
+	line-height:30px;
+	display:inline-block;
+	font-size:20px;
+	background:#666;
+	opacity:0.3;
+	filter:alpha(opacity:30);
+	position:absolute;
+	top:95px;
+	color:#222;
+}
+#small{
+	left:10px;
+}
+#big{
+	left:180px;
+}
+#rightTop .right p{
+	float:left;
+	margin-left:10px;
+}
+
+#rightBottom .right img{
+	width:250px;
+}
+
+#bgm{
+	position:absolute;
+	left:270px;
+	top:20px;
+}
+#text{
+	position:absolute;
+	left:270px;
+	top:70px;
+}
+#btn2{
+	position:absolute;
+	left:450px;
+	top:70px;
+}
+#footer{
+	margin-top:20px;
+	padding:15px 0;
+	overflow:hidden;
+	background:#f1f1f1;
+	border:1px solid #eee;
+	border-radius:10px;
+}
+#footer p{
+	text-align:center;
+	font-size:16px;
+}
